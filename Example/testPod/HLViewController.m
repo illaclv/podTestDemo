@@ -7,7 +7,7 @@
 //
 
 #import "HLViewController.h"
-
+#import "HLhahah.h"
 @interface HLViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@",[HLhahah appInfo]);
 }
 
 - (void)didReceiveMemoryWarning
